@@ -97,3 +97,58 @@ footer > p > a {
   text-decoration: none;
   color: var(--accent);
 }
+
+@media screen and (min-width: 600px) {
+  body {
+    background: var(--primary) url('./images/bg-desktop.svg') no-repeat center
+      center / cover;
+    min-height: 100vh;
+  }
+  #logo {
+    margin-bottom: 10%;
+  }
+  .container {
+  }
+  main {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    align-items: center;
+  }
+  .description {
+    text-align: left;
+  }
+  h1 {
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+  }
+
+  p {
+    font-size: 0.272rem;
+    line-height: 0.5rem;
+  }
+
+  .cta {
+    margin-top: 1%;
+    font-size: 0.3rem;
+    padding: 3% 12%;
+  }
+  .art {
+    flex: 1.8;
+    margin-bottom: 0;
+  }
+  .description {
+    flex: 1;
+  }
+  footer {
+    margin-top: 0;
+    align-self: self-end;
+  }
+  footer > p {
+    text-align: right;
+  }
+  footer > ul > li > a {
+    /* display: none; */
+    font-size: 0.6rem;
+  }
+}
