@@ -4,6 +4,8 @@
 
 Thanks for checking out my frontend mentor solutions
 
+[Live preview](https://ortiz-antonio.github.io/frontend-mentor/)
+
 [Qr code component solution](https://github.com/ortiz-antonio/frontend-mentor/tree/main/challenges/qr-code-component)
 
 [Social links profile solution](https://github.com/ortiz-antonio/frontend-mentor/tree/main/challenges/social-links-profile)
