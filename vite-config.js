@@ -7,7 +7,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        // nested: resolve(__dirname, 'public/huddle-landing/index.html'),
+        // nested: resolve(__dirname, 'challenges/'),
       },
     },
   },
