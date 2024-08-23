@@ -110,12 +110,16 @@ footer > p > a {
     min-height: 100vh;
   }
   #logo {
-    margin-bottom: 10%;
+    margin-top: 3%;
+    margin-bottom: 8%;
   }
   .container {
-    max-width: 1400px;
-    margin: 0 auto;
+    /* max-width: 1440px;
+    max-height: 900px; */
+    /* margin: 0 auto; */
+    height: 100%;
   }
+
   main {
     display: flex;
     flex-direction: row;
@@ -147,9 +151,10 @@ footer > p > a {
   .description {
     flex: 1;
   }
+
   footer {
     margin-top: 0;
-    align-self: self-end;
+    align-items: flex-end;
   }
   footer > p {
     text-align: right;
