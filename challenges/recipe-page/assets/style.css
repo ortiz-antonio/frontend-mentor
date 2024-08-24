@@ -42,12 +42,12 @@ li::marker,
   font-weight: 700;
 }
 
-.ingredients li::marker {
+.preparation li::marker {
   color: var(--rose-800);
   font-weight: 700;
 }
 
-.ingredients h3 {
+.preparation h3 {
   margin-left: 20px;
 }
 hr {
