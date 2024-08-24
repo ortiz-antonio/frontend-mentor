@@ -12,3 +12,8 @@ article {
 article > img {
   width: fit-content;
 }
+
+header a {
+  text-decoration: none;
+  color: white;
+}

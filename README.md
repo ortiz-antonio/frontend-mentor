@@ -11,3 +11,5 @@ Thanks for checking out my frontend mentor solutions
 [Social links profile solution](https://github.com/ortiz-antonio/frontend-mentor/tree/main/challenges/social-links-profile)
 
 [Huddle Landing page solution](https://github.com/ortiz-antonio/frontend-mentor/tree/main/challenges/huddle-landing)
+
+[Recipe page solution](https://github.com/ortiz-antonio/frontend-mentor/tree/main/challenges/recipe-page)
