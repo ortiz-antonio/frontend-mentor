@@ -11,21 +11,21 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
     <title>Frontend Mentor | Recipe page</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
+    <section class="art">
+      <img
+        src="assets/images/image-omelette.jpeg"
+        alt="Image omelette"
+        class="hero-art"
+      />
+    </section>
     <main>
       <section class="hero">
         <header>
@@ -39,7 +39,7 @@
       </section>
       <section class="ingredients">
         <header>
-          <h1>Preparation time</h1>
+          <h3>Preparation time</h3>
         </header>
         <ul>
           <li>
@@ -55,7 +55,7 @@
       </section>
       <section class="ingredients">
         <header>
-          <h1>Ingredients</h1>
+          <h2>Ingredients</h2>
         </header>
         <ul>
           <li><p>2-3 large eggs</p></li>
@@ -71,7 +71,7 @@
       </section>
       <section class="instructions">
         <header>
-          <h1>Instructions</h1>
+          <h2>Instructions</h2>
         </header>
         <ol>
           <li>
@@ -116,9 +116,10 @@
           </li>
         </ol>
       </section>
+      <hr />
       <section class="nutrition">
         <header>
-          <h1>Nutrition</h1>
+          <h2>Nutrition</h2>
         </header>
         <p>
           The table below shows nutritional values per serving without the
