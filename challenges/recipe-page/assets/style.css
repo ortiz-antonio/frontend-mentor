@@ -18,11 +18,6 @@
   color: var(--stone-600);
 }
 
-h3 {
-  font-family: 'Outfit', sans-serif;
-  font-weight: 600;
-  color: var(--rose-800);
-}
 h2 {
   font-family: 'Outfit', sans-serif;
   font-weight: 600;
@@ -34,7 +29,14 @@ h1 {
   font-weight: 600;
   font-size: 2.1rem;
 }
-li::marker,
+.preparation h2 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  color: var(--rose-800);
+  font-size: 1rem;
+}
+.ingredients-list-items li::marker,
+.instructions-list-items li::marker,
 .cal {
   font-family: 'Outfit', sans-serif;
 
@@ -42,12 +44,18 @@ li::marker,
   font-weight: 700;
 }
 
-.preparation li::marker {
+.preparation {
+  background-color: var(--rose-50);
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.preparation-list-items li::marker {
   color: var(--rose-800);
   font-weight: 700;
 }
 
-.preparation h3 {
+.preparation h2 {
   margin-left: 20px;
 }
 hr {
@@ -65,7 +73,7 @@ table {
 }
 
 tr {
-  border-bottom: 1px solid var(--stone-150);
+  border-bottom: 1px solid var(--stone-100);
 }
 td {
   padding: 12px;
@@ -93,7 +101,7 @@ footer a {
 
 @media screen and (min-width: 375px) {
   body {
-    background-color: var(--stone-100);
+    background-color: var(--stone-150);
     display: flex;
     flex-direction: column;
     align-items: center;
