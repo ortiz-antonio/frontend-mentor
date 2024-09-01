@@ -1,0 +1,132 @@
+:root {
+  --primary: hsl(47, 88%, 63%);
+  --secondary: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+
+  --space-200: 16px;
+  --space-150: 12px;
+  --space-100: 8px;
+  --space-50: 4px;
+
+  --font-size: 16px;
+  font-size: var(--font-size);
+}
+
+body {
+  font-family: 'Figtree', system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0px;
+  line-height: 150%;
+
+  color: var(--gray-950);
+
+  background-color: var(--primary);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card * {
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  padding: 23px;
+  background-color: var(--secondary);
+  border: 1px solid var(--gray-500);
+  box-shadow: 10px 10px var(--gray-950);
+  border-radius: 20px;
+  max-width: 279px;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-200);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: var(--space-150);
+}
+
+#cover {
+  height: 200px;
+  background: url('images/illustration-article.svg') no-repeat center center;
+}
+
+.title {
+  margin-bottom: var(--space-150);
+}
+h1 {
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--gray-950);
+}
+header a:hover {
+  color: var(--primary);
+}
+p {
+  font-size: 0.75rem;
+}
+.description {
+  font-size: 0.875rem;
+  color: var(--gray-500);
+}
+
+h2 {
+  font-size: 0.875rem;
+}
+
+#avatar {
+  width: 32px;
+  height: 32px;
+}
+.tag {
+  display: inline;
+  padding: 5px 10px;
+  background-color: var(--primary);
+  border-radius: 4px;
+  font-weight: 800;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.attribution {
+  margin-top: var(--space-200);
+}
+
+.attribution a {
+  color: var(--gray-950);
+  text-decoration: underline;
+}
+
+.attribution a:hover {
+  color: var(--secondary);
+}
+
+@media screen and (min-width: 500px) {
+  :root {
+    --font-size: 19.1px;
+  }
+
+  .card {
+    max-width: 336px;
+  }
+}
