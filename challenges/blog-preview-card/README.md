@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/ortiz-antonio/frontend-mentor/tree/main/challenges/blog-preview-card/index.html](https://github.com/ortiz-antonio/frontend-mentor/tree/main/challenges/blog-preview-card/index.html)
+- Solution URL: [https://github.com/ortiz-antonio/frontend-mentor/tree/main/challenges/blog-preview-card](https://github.com/ortiz-antonio/frontend-mentor/tree/main/challenges/blog-preview-card)
 - Live Site URL: [https://ortiz-antonio.github.io/frontend-mentor/challenges/blog-preview-card/index.html](https://ortiz-antonio.github.io/frontend-mentor/challenges/blog-preview-card/index.html)
 
 ## My process

@@ -13,3 +13,5 @@ Thanks for checking out my frontend mentor solutions
 [Huddle Landing page solution](https://github.com/ortiz-antonio/frontend-mentor/tree/main/challenges/huddle-landing)
 
 [Recipe page solution](https://github.com/ortiz-antonio/frontend-mentor/tree/main/challenges/recipe-page)
+
+[Blog preview card solution](https://github.com/ortiz-antonio/frontend-mentor/tree/main/challenges/blog-preview-card)
