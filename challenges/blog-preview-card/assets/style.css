@@ -59,7 +59,8 @@ header {
 
 #cover {
   height: 200px;
-  background: url('images/illustration-article.svg') no-repeat center center;
+  object-fit: cover;
+  width: 100%;
 }
 
 .title {
