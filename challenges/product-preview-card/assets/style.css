@@ -2,6 +2,8 @@
 
 :root {
   --accent: hsl(158, 36%, 37%);
+  --accent-active: hsl(158, 36%, 20%);
+
   --background: hsl(30, 38%, 92%);
 
   --white: hsl(0, 0%, 100%);
@@ -88,6 +90,10 @@ section.product-card button {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+}
+
+section.product-card button:hover {
+  background-color: var(--accent-active);
 }
 
 .cart {
