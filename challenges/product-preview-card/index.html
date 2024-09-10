@@ -21,11 +21,19 @@
   <body>
     <main>
       <section class="product-card">
-        <img
-          src="assets/images/image-product-mobile.jpg"
-          alt="Gabrielle parfum"
-          class="art"
-        />
+        <div class="art">
+          <picture>
+            <source
+              media="(min-width:550px)"
+              srcset="assets/images/image-product-desktop.jpg"
+            />
+
+            <img
+              src="assets/images/image-product-mobile.jpg"
+              alt="Gabrielle parfum"
+            />
+          </picture>
+        </div>
         <article>
           <header>
             <p class="category">PERFUME</p>
