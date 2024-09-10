@@ -6,6 +6,8 @@ Thanks for checking out my frontend mentor solutions
 
 [Live preview](https://ortiz-antonio.github.io/frontend-mentor/)
 
+[Frontend Mentor Profile](https://www.frontendmentor.io/profile/ortiz-antonio)
+
 ### Newbie Solutions
 
 [Qr code component solution](https://github.com/ortiz-antonio/frontend-mentor/tree/main/challenges/qr-code-component)
