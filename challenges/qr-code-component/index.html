@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -16,39 +16,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
+    <link rel="stylesheet" href="/shared/assets/reset.css" />
 
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
-    <div class="container">
-      <main>
-        <div class="qr-code-container">
-          <img src="./images/image-qr-code.png" alt="QR code image" />
-          <div class="card-description">
-            <h1>Improve your front-end skills by building projects</h1>
-            <p>
-              Scan the QR code to visit Frontend Mentor and take your coding
-              skills to the next level
-            </p>
-          </div>
+    <main>
+      <section class="qr">
+        <figure class="qr__art">
+          <img
+            src="./images/image-qr-code.png"
+            alt="QR code image"
+            class="has-radius"
+          />
+        </figure>
+        <header class="qr__title">
+          <h1>Improve your front-end skills by building projects</h1>
+        </header>
+        <div class="qr__description">
+          <p>
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
         </div>
-      </main>
+      </section>
+    </main>
 
-      <footer>
-        <section class="attribution">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by <a href="https://ortiz.studio">Antonio Ortiz</a>.
-        </section>
-      </footer>
-    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://ortiz.studio">Antonio Ortiz</a>.
+      </div>
+    </footer>
   </body>
 </html>

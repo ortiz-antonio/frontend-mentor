@@ -1,0 +1,73 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+:root {
+  --primary: #1f314f;
+  --secondary: #68778d;
+  --bg: #d5e1ef;
+
+  font-size: 16px;
+
+  --space-200: 1rem;
+  --space-300: 1.5rem;
+  --space-500: 2.5rem;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  background-color: var(--bg);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 95vh;
+}
+
+.qr {
+  margin: var(--space-200);
+  padding: var(--space-200) var(--space-200) var(--space-500) var(--space-200);
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 5px 15px 10px 2px rgba(0, 0, 0, 0.1);
+  max-width: 320px;
+  text-align: center;
+}
+
+.qr__art {
+  /* max-width: 100%; */
+}
+
+.has-radius {
+  border-radius: 10px;
+}
+
+.qr__title {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.2;
+  letter-spacing: 0rem;
+  color: var(--primary);
+  margin-top: var(--space-300);
+  margin-bottom: var(--space-200);
+}
+
+.qr__description {
+  font-size: 1rem;
+  line-height: 1.4;
+  letter-spacing: 0.0125rem;
+  color: var(--secondary);
+}
+
+.attribution {
+  position: relative;
+  font-size: 1rem;
+}
