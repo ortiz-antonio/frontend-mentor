@@ -59,12 +59,12 @@ main {
   letter-spacing: 0.0125rem;
 }
 
-.attribution {
+.footer__attribution {
   position: relative;
   font-size: 1rem;
   text-align: center;
 }
 
-.attribution a {
+.footer__attribution--link {
   color: hsl(228deg 45% 44%);
 }
