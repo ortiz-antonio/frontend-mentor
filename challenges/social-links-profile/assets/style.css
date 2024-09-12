@@ -1,0 +1,118 @@
+@font-face {
+  font-family: Inter, sans-serif;
+  src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+  font-display: swap;
+}
+
+:root {
+  --green: hsl(75deg 94% 57%);
+  --white: hsl(0deg 0% 100%);
+  --grey-700: hsl(0deg 0% 20%);
+  --grey-800: hsl(0deg 0% 12%);
+  --grey-900: hsl(0deg 0% 8%);
+
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+
+  --space-300: 2rem;
+  --space-200: 1rem;
+  --space-100: 0.045rem;
+}
+
+html,
+body {
+  background-color: var(--grey-900);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: var(--space-200);
+  background-color: var(--grey-800);
+  border: 1px solid var(--grey-800);
+  border-radius: 20px;
+}
+
+.social__avatar {
+  max-inline-size: 5rem;
+  margin-top: var(--space-200);
+  border-radius: 50%;
+}
+
+.social__header {
+  text-align: center;
+}
+
+.social__header--name {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.social__header--location {
+  margin-top: var(--space-100);
+  margin-bottom: var(--space-300);
+  color: var(--green);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.social__header--quote {
+  font-size: 1rem;
+}
+
+.social__links {
+  width: 100%;
+  margin-top: var(--space-200);
+}
+
+.social__links--list {
+  padding: 0;
+  text-indent: 0;
+  list-style-type: none;
+}
+
+.social__links--list-item--link {
+  display: block;
+  margin: var(--space-200);
+  padding: 0.7rem;
+  color: var(--white);
+  font-weight: 900;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--grey-700);
+  border-radius: 5px;
+}
+
+.social__links--list-item--link:hover {
+  color: var(--grey-900);
+  background-color: var(--green);
+  cursor: pointer;
+}
+
+.footer {
+  position: relative;
+  margin-top: 20px;
+}
+
+.footer__attribution--link {
+  color: var(--green);
+}
+
+@media (width >= 370px) {
+  .social {
+    width: 300px;
+  }
+}
