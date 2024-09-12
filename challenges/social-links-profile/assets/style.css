@@ -94,7 +94,7 @@ body {
   border-radius: 5px;
 }
 
-.social__links--list-item--link:hover {
+.social__links--list-item--link:is(:hover, :focus) {
   color: var(--grey-900);
   background-color: var(--green);
   cursor: pointer;
