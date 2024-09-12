@@ -2,16 +2,14 @@
   --primary: #1f314f;
   --secondary: #68778d;
   --bg: #d5e1ef;
-
-  font-size: 16px;
-
-  --space-200: 1rem;
-  --space-300: 1.5rem;
-  --space-500: 2.5rem;
+  --space-200: 1em;
+  --space-300: 1.5em;
+  --space-500: 2.5em;
 }
 
 body {
   font-weight: 500;
+  font-size: 1em;
   font-family: Outfit, sans-serif;
   background-color: var(--bg);
 }
@@ -25,7 +23,8 @@ main {
 }
 
 .qr {
-  max-width: 320px;
+  width: 100%;
+  max-width: 20em;
   margin: var(--space-200);
   padding: var(--space-200) var(--space-200) var(--space-500) var(--space-200);
   text-align: center;
@@ -34,11 +33,8 @@ main {
   box-shadow: 5px 15px 10px 2px rgba(0 0 0 0.1);
 }
 
-/* .qr__art {
-  max-width: 100%;
-} */
-
-.has-radius {
+.qr__art--img {
+  inline-size: 100%;
   border-radius: 10px;
 }
 
@@ -47,21 +43,18 @@ main {
   margin-bottom: var(--space-200);
   color: var(--primary);
   font-weight: 700;
-  font-size: 1rem;
   line-height: 1.2;
   letter-spacing: 0;
 }
 
 .qr__description {
   color: var(--secondary);
-  font-size: 1rem;
   line-height: 1.4;
-  letter-spacing: 0.0125rem;
+  letter-spacing: 0.0125em;
 }
 
 .footer__attribution {
   position: relative;
-  font-size: 1rem;
   text-align: center;
 }
 
