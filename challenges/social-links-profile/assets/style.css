@@ -12,17 +12,16 @@
   --grey-900: hsl(0deg 0% 8%);
 
   color: white;
-  font-weight: 400;
-  font-size: 14px;
-  font-family: Inter, sans-serif;
 
-  --space-300: 2rem;
-  --space-200: 1rem;
-  --space-100: 0.045rem;
+  --space-300: 2em;
+  --space-200: 1em;
+  --space-100: 0.045em;
 }
 
 html,
 body {
+  font-weight: 400;
+  font-family: Inter, sans-serif;
   background-color: var(--grey-900);
 }
 
@@ -31,7 +30,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .social {
@@ -46,7 +45,7 @@ body {
 }
 
 .social__avatar {
-  max-inline-size: 5rem;
+  max-inline-size: 5em;
   margin-top: var(--space-200);
   border-radius: 50%;
 }
@@ -57,7 +56,7 @@ body {
 
 .social__header--name {
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 .social__header--location {
@@ -65,11 +64,11 @@ body {
   margin-bottom: var(--space-300);
   color: var(--green);
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.1em;
 }
 
 .social__header--quote {
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .social__links {
@@ -86,10 +85,10 @@ body {
 .social__links--list-item--link {
   display: block;
   margin: var(--space-200);
-  padding: 0.7rem;
+  padding: 0.7em;
   color: var(--white);
   font-weight: 900;
-  font-size: 1rem;
+  font-size: 1em;
   text-align: center;
   text-decoration: none;
   background-color: var(--grey-700);
@@ -111,8 +110,9 @@ body {
   color: var(--green);
 }
 
-@media (width >= 370px) {
+@media (width >= 26em) {
   .social {
-    width: 300px;
+    /* width: 300px; */
+    width: 21em;
   }
 }
