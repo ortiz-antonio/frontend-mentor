@@ -1,1 +1,1 @@
-# Parcel project with pug and sass for Frontend mentor challenges
+# Parcel project with pug and scss for Frontend mentor challenges
