@@ -1,22 +1,9 @@
 {
-  "name": "frontend-mentor",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "prepare": "husky"
-  },
   "devDependencies": {
-    "husky": "^9.1.6",
-    "prettier": "^3.3.3",
-    "stylelint": "^16.9.0",
-    "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard": "^36.0.1",
-    "stylelint-config-two-dash-bem": "^1.0.0",
-    "stylelint-order": "^6.0.4",
-    "vite": "^5.4.1"
+    "@parcel/transformer-pug": "2.12.0",
+    "@parcel/transformer-sass": "2.12.0",
+    "@prettier/plugin-pug": "^3.1.0",
+    "parcel": "^2.12.0",
+    "prettier": "^3.3.3"
   }
 }

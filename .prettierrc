@@ -1,6 +1,9 @@
 {
+    "plugins": ["@prettier/plugin-pug"],
     "trailingComma": "es5",
     "tabWidth": 2,
+    "useTabs": false,
     "semi": false,
-    "singleQuote": true
+    "singleQuote": true,
+    "printWidth": 80
 }
