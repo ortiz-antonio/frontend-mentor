@@ -4,30 +4,8 @@ tasks:
   default:
     cmds:
       - echo Usage task dev project=PROJECT_NAME
-  build:
-    sources:
-      # - {{.TASKFILE_DIR}}/challenges/{{.project}}/index.pug
-      # - {{.TASKFILE_DIR}}/challenges/{{.project}}/includes/*.pug
-      # - {{.TASKFILE_DIR}}/challenges/{{.project}}/assets/scss/*.scss
-    cmds:
       - yarn parcel build {{.TASKFILE_DIR}}/challenges/{{.project}}/*.pug --dist-dir {{.TASKFILE_DIR}}/challenges/{{.project}}/dist/ --no-source-maps --no-content-hash --no-optimize
 
   dev:
     cmds:
       - yarn parcel {{.TASKFILE_DIR}}/challenges/{{.project}}/index.pug --dist-dir {{.TASKFILE_DIR}}/challenges/{{.project}}/dist --no-source-maps
-
-  public:
-    deps: [build]
-    cmds:
-      - mkdir -p public
-      - rm -r public/
-      - cp -r dist/ public/
-      - task: format
-
-  format:
-    sources:
-      - public/*.html
-      - public/*.css
-    cmds:
-      - yarn prettier {{.TASKFILE_DIR}}/challenges/{{.project}}/public/*.html --write
-      - yarn prettier {{.TASKFILE_DIR}}/challenges/{{.project}}/public/*.css --write
