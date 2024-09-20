@@ -10,7 +10,7 @@ tasks:
       # - {{.TASKFILE_DIR}}/challenges/{{.project}}/includes/*.pug
       # - {{.TASKFILE_DIR}}/challenges/{{.project}}/assets/scss/*.scss
     cmds:
-      - yarn parcel build {{.TASKFILE_DIR}}/challenges/{{.project}}/*.pug --dist-dir {{.TASKFILE_DIR}}/challenges/{{.project}}/dist/ --no-source-maps --no-optimize
+      - yarn parcel build {{.TASKFILE_DIR}}/challenges/{{.project}}/*.pug --dist-dir {{.TASKFILE_DIR}}/challenges/{{.project}}/dist/ --no-source-maps --no-content-hash --no-optimize
 
   dev:
     cmds:
