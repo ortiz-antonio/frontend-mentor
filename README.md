@@ -10,5 +10,3 @@ Thanks to [@grace-snow](https://www.frontendmentor.io/profile/grace-snow) for ex
 
 - Solution URL: [https://github.com/ortiz-antonio/qr-code-component](https://github.com/ortiz-antonio/qr-code-component)
 - Live Site URL: [https://ortiz-antonio.github.io/qr-code-component/](https://ortiz-antonio.github.io/qr-code-component/)
-
-![](/challenges/qr-code-component/screenshot.png)
