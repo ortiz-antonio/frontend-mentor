@@ -10,3 +10,8 @@ Thanks to [@grace-snow](https://www.frontendmentor.io/profile/grace-snow) for ex
 
 - Solution URL: [https://github.com/ortiz-antonio/qr-code-component](https://github.com/ortiz-antonio/qr-code-component)
 - Live Site URL: [https://ortiz-antonio.github.io/qr-code-component/](https://ortiz-antonio.github.io/qr-code-component/)
+
+### Blog preview card
+
+- Solution URL: [https://github.com/ortiz-antonio/blog-preview-card](https://github.com/ortiz-antonio/blog-preview-card)
+- Live Site URL: [https://ortiz-antonio.github.io/blog-preview-card/](https://ortiz-antonio.github.io/blog-preview-card/)
