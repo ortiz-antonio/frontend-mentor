@@ -15,3 +15,8 @@ Thanks to [@grace-snow](https://www.frontendmentor.io/profile/grace-snow) for ex
 
 - Solution URL: [https://github.com/ortiz-antonio/blog-preview-card](https://github.com/ortiz-antonio/blog-preview-card)
 - Live Site URL: [https://ortiz-antonio.github.io/blog-preview-card/](https://ortiz-antonio.github.io/blog-preview-card/)
+
+### Social links profile
+
+- Solution URL: [https://github.com/ortiz-antonio/social-links-profile/](https://github.com/ortiz-antonio/social-links-profile/)
+- Live Site URL: [https://ortiz-antonio.github.io/social-links-profile/](https://ortiz-antonio.github.io/social-links-profile/)

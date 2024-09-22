@@ -4,3 +4,6 @@
 [submodule "challenges/blog-preview-card"]
 	path = challenges/blog-preview-card
 	url = git@github.com:ortiz-antonio/blog-preview-card.git
+[submodule "challenges/social-links-profile"]
+	path = challenges/social-links-profile
+	url = git@github.com:ortiz-antonio/social-links-profile.git
