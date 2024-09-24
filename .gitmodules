@@ -7,3 +7,6 @@
 [submodule "challenges/social-links-profile"]
 	path = challenges/social-links-profile
 	url = git@github.com:ortiz-antonio/social-links-profile.git
+[submodule "challenges/recipe-page"]
+	path = challenges/recipe-page
+	url = git@github.com:ortiz-antonio/recipe-page.git

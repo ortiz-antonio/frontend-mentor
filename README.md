@@ -20,3 +20,8 @@ Thanks to [@grace-snow](https://www.frontendmentor.io/profile/grace-snow) for ex
 
 - Solution URL: [https://github.com/ortiz-antonio/social-links-profile/](https://github.com/ortiz-antonio/social-links-profile/)
 - Live Site URL: [https://ortiz-antonio.github.io/social-links-profile/](https://ortiz-antonio.github.io/social-links-profile/)
+
+### Recipe page
+
+- Solution URL: [https://github.com/ortiz-antonio/recipe-page](https://github.com/ortiz-antonio/recipe-page)
+- Live Site URL: [https://ortiz-antonio.github.io/recipe-page](https://ortiz-antonio.github.io/recipe-page/)
